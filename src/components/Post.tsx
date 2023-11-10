@@ -1,5 +1,6 @@
+import Image from "next/image";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import your icons
 import { faComment } from "@fortawesome/free-regular-svg-icons";
 
 const Post = () => {
@@ -8,7 +9,7 @@ const Post = () => {
       {/* user info */}
       <div className="flex items-center gap-2 mb-4">
         <div className="w-[36px] aspect-square rounded-full bg-gray-200">
-          <img src="" alt="" />
+          <Image src="" alt="Picture of the author" />
         </div>
 
         <div className="flex flex-col">
