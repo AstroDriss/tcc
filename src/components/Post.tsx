@@ -9,7 +9,7 @@ const Post = () => {
       {/* user info */}
       <div className="flex items-center gap-2 mb-4">
         <div className="w-[36px] aspect-square rounded-full bg-gray-200">
-          <Image src="" alt="Picture of the author" />
+          <Image width={36} height={36} src="" alt="Picture of the author" />
         </div>
 
         <div className="flex flex-col">
