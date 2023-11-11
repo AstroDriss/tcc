@@ -10,7 +10,7 @@ type PostType = {
 };
 
 const Post = ({ body, username, createdAt }: PostType) => {
-  const formatDate = (timestamp) => {
+  const formatDate = (timestamp: number) => {
     const now = new Date();
     const date = new Date(timestamp);
 
