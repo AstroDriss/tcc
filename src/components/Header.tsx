@@ -1,5 +1,8 @@
 import Link from "next/link";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser } from "@fortawesome/free-regular-svg-icons";
+
 const Header = () => {
   return (
     <header className=" shadow-sm bg-gray-100 py-2 ">
@@ -23,8 +26,10 @@ const Header = () => {
 
         <Link
           href="/profile"
-          className="rounded-full w-[36px] h-[36px] bg-gray-300"
-        ></Link>
+          className="flex justify-center items-center rounded-full w-[36px] h-[36px] bg-gray-300"
+        >
+          <FontAwesomeIcon className="w-5" icon={faUser} />
+        </Link>
       </div>
     </header>
   );
